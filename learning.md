@@ -41,7 +41,7 @@
    ------|------------------------------------------------------------------------
    const |Used to declare variable, but variable can not be reinitialized.and must 
          | be initialized during declaration
-   ------|-------------------------------------------------------------------------
+   -------------------------------------------------------------------------------
   Use const for declaring variables unless you want to change them later.
 
  5. Data types: **String, Numbers, Boolean, null, undefined**.
