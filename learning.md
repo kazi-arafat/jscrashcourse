@@ -36,13 +36,9 @@
   
    var   | Not used frequenly as it is old method for declaring variable
    ------|------------------------------------------------------------------------
-   let   | used to declare variable ECMA script 6 standard. We can re initialize 
-         | valiables declared by let.
+   let   | used to declare variable ECMA script 6 standard. We can re initialize valiables declared by let.
    ------|------------------------------------------------------------------------
-   const |Used to declare variable, but variable can not be reinitialized.and must 
-         | be initialized during declaration
-   -------------------------------------------------------------------------------
-  Use const for declaring variables unless you want to change them later.
+   const | Used to declare variable, but variable can not be reinitialized.and must be initialized during decleration .Use const for declaring variables unless you want to change them later.
 
  5. Data types: **String, Numbers, Boolean, null, undefined**.
     There is no float or decimal data types they all are numbers.
