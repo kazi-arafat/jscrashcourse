@@ -78,4 +78,15 @@
  9. We can convert object literals to json using ***JSON.stringify(ObjectLiteral)*** method. and vice versa by using 
  ***JSON.parse(jsonString)***
 
- 10. *** == vs === ***
+ 10. *** == vs === *** 
+  > ==  This only checks the value.  
+  > === This checks values as well as type.
+
+ 11. Array methods **pop(),shift(),splice()** :
+ ***pop()*** : pop removes last element from array. 
+ ***shift()*** : removes element from starting
+ ***splice()*** : alters array by adding or removing elements from array.
+  `syntax arrayElement.splice(startingIndex,no of elements to be removed,items to be added)`
+
+ For more array methods and Array [please refer here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
