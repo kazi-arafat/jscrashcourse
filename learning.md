@@ -87,3 +87,26 @@
 
  For more array methods and Array [please refer here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
+12. Ternery Operator: condition ? statement if true : statement if false
+
+##. Function
+ 1. 
+##. OOP in JS
+ 1. We can create objects using constructor function or using clases.
+ 2. 
+## DOM - Documnet Object Model
+1. documnet is located within window object.
+2. ```javascript
+   // single element
+
+    const form_content = document.getElementById('my-form')
+    console.log(form_content)
+
+    console.log(document.querySelector('h1'))
+    console.log(document.querySelectorAll('h1'))
+
+    // multiple element
+
+    console.log(document.querySelectorAll('.item'))
+   ```
+3. 

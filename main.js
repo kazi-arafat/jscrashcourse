@@ -124,7 +124,50 @@ console.log(completedTask);
 // chaining map and filter
 const completedTaskText = todos.filter(function (todo) {
     return todo.isCompleted === true
-}).map(function(cmpltd){
+}).map(function (cmpltd) {
     return cmpltd.text.trim()
 });
 console.log(completedTaskText);
+
+// Arrow functions
+
+const addNums = (num1 = 1, num2 = 2) => num1 + num2;
+
+console.log(addNums())
+
+// application of arrow function in forEach
+
+todos.forEach(todo => console.log(todo))
+
+// Constructor function
+// function Person(firstName, lastName, dob) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+//     this.getFullName = function(){
+//         return `${this.firstName} ${this.lastName}`
+//     }
+// }
+// Date() takes string input in mm-dd--yyyy format.
+// Instanttiate Object
+// const person1 = new Person("Kazi","Arafat",'12-20-1992');
+
+// console.log(person1.dob);
+// console.log(`Month is ${person1.dob.getMonth()}`);
+// console.log(person1.getFullName())
+
+// OOP using ESC standard.
+class Person {
+    constructor(firstName, lastName, dob) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dob = new Date(dob);
+    }
+    getFullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+
+}
+
+const person1 = new Person("Jhon","Doe",'11-20-1992');
+console.log(person1)
